@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+nav a {
+    color: #000;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+nav img {
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+nav .comprar {
+    font-weight: 600;
+}
+
+#principal {
+    background: url('../img/bg1.png') no-repeat center;
+    background-size: cover;
+}
+
+#principal .titulo h3 {
+    font-size: 40px;
+    font-weight: 300;
+    max-width: 5000px;
+    text-align: left;
+}
+
+#principal .titulo span {
+    font-weight: 500;
+}
+
+#principal .paragrafo p {
+    font-size: 20px;
+    max-width: 410px;
+    text-align: left;
+    font-weight: 300;
+}
+
+#principal .botao button {
+    background: #4FBFA6;
+    color: white;
+    width: 350px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+#principal .botao button:hover {
+opacity: .8;
+}
+
+
+#principal .imagem {
+    text-align: center;
+}
+
+#principal .imagem img {
+    width: 55%;
+    margin-top: 30px;
+}
+
+
+#desejo .imagem {
+    margin-top: 15%;
+}
+
+#desejo .paragrafo {
+    margin-top: 28%;
+    margin-left: 100px;
+}
+
+#desejo .paragrafo p {
+    max-width: 400px;
+}
+
+#desejo .botao button {
+    background: #4FBFA6;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    height: 50px;   
+    margin-left: 15%;
+}
+
+
+#desejo .botao button:hover {
+    opacity: .8;
+}
+
+#desejo .paragrafo2 p {
+    max-width: 900px;
+    text-align: center;
+}
+
+.leftside {
+    background: url('../img/jessica2.png') no-repeat;
+    background-size: cover;
+}
+
+.leftside .icons img {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.leftside .titulo h4 {
+    font-size: 40px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.leftside .paragrafo p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+.rightside {
+    background: url('../img/jessica3.png') no-repeat;
+    background-size: cover;
+}
+
+.rightside .icons img {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.rightside .titulo h4 {
+    font-size: 40px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.rightside .paragrafo p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+
+#ajuda {
+    background: #4FBFA6 ;
+}
+
+#ajuda .paragrafo span {
+    font-weight: 600;
+}
+
+#ajuda .paragrafo p {
+    font-weight: 400;
+    max-width: 550px;
+}
+
+#ajuda .botao button {
+    background: #FF4B17;
+    font-weight: 500;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#cards {
+    background: url('../img/bg2.png') no-repeat fixed;
+    background-size: cover;
+}
+
+#cards .paragrafo {
+    border-right: 1px solid #ccc;
+
+}
+
+#cards .paragrafo p {
+    font-size: 30px;
+    margin-top: 10%;
+    max-width: 400px;
+    font-weight: 300;
+}
+
+#cards .paragrafo span {
+    font-weight: 500;
+}
+
+#cards .paragrafo2 {
+    margin-left: 50px;
+}
+
+#cards .paragrafo2 p {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+#cards .card1 {
+    background: #fff;
+    width: 370px;
+    height: 400px;
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#cards .imagem1 img {
+    width: 100px;
+}
+
+#cards .titulo1 p {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(70, 68, 68);
+}
+
+#cards .paragrafo3 {
+    margin-left: 18%;
+}
+
+#cards .paragrafo3 p {
+    max-width: 250px;
+    color: rgb(97, 94, 94);
+}
+
+#cards .botao button {
+    background: #4FBFA6;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    height: 50px;  
+}
+
+#cards .botao button:hover {
+    opacity: .8;
+}
+
+#bonus {
+    background: url('../img/bg3.png') no-repeat;
+    background-size: cover;
+}
+
+#bonus .paragrafo p {
+    font-size: 30px;
+    font-weight: 350;
+    max-width: 500px;
+}
+
+#bonus .bonus1 {
+    margin-left: 0%;
+    background: #fff;
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#bonus .bonus2 {
+    margin-left: 0%;
+    background: #fff;
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#bonus .bonus3 {
+    margin-left: 0%;
+    background: #fff;
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#bonus .bonus4 {
+    margin-left: 0%;
+    background: #fff;
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#bonus .bonus5 {
+    margin-left: 0%;
+    background: #fff;
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#bonus .botao button{
+    background: #4FBFA6;
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50px; 
+    margin-top: 10px; 
+}
+
+#bonus .botao button {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#bonus .p1 p {
+    margin-top: 20px;
+    margin-left: -50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#garantia {
+    background: url('../img/bg4.png') no-repeat;
+    background-size: cover;
+}
+
+#garantia .titulo h4 {
+    font-size: 45px;
+}
+
+#garantia .paragrafo p {
+    max-width: 510px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#garantia .botao button {
+    background: #fff;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+#garantia .botao button {
+    color: #4FBDA5;
+}
+
+#garantia .botao:hover {
+    opacity: .8;
+}
+
+
+#depoimentos .card1 {
+    background: #fff;
+    width: 370px;
+    height: 400px;
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#depoimentos .card2 {
+    background: #fff;
+    width: 370px;
+    height: 400px;
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#depoimentos .card3 {
+    background: #fff;
+    width: 370px;
+    height: 400px;
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#depoimentos .titulo h4 {
+    font-size: 40px;
+    color: #000;
+}
+
+#depoimentos .paragrafo p {
+    margin-top: 0%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#preco .titulo h4 {
+    font-size: 35px;
+    max-width: 500px;
+    color: #000;
+}
+
+#preco .card1 {
+    width: 450px;
+    height: 200px;
+    border: 1px solid #e0dede;
+    border-radius: 30px;
+}
+
+#preco .p1 p {
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+
+#preco .v1 p {
+    font-size: 35px;
+    color: red;
+    font-weight: 400;
+}
+
+#preco .v1 span {
+    font-size: 25px;
+}
+
+
+
+#preco .card2 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #e0dede;
+    border-radius: 30px;
+}
+
+#preco .p2 p {
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+
+#preco .v2 p {
+    font-size: 35px;
+    color: #068F6F;
+    font-weight: 600;
+}
+
+#preco .v2 span {
+    font-size: 25px;
+}
+
+#preco .botao button {
+    background: #4FBFA6;
+    color: white;
+    width: 400px;
+    border-radius: 20px;
+    height: 50px; 
+    margin-top: 10px;
+}
+
+#final .paragrafo {
+    margin-top: 20%;
+}
+
+#final .paragrafo p {
+    font-size: 18px;
+    max-width: 500px;
+}
+
+#final .imagem img {
+    width: 100%;
+}
+
+#footer {
+    background: linear-gradient(#D52666, #E54682) ;
+}
+
+@media screen and (max-width: 425px) {
+    
+    nav .navbar-brand img {
+        width: 200px;
+    }
+
+    #principal .botao button {
+        width: 300px;
+        margin: 0;
+    }
+
+    #desejo .botao button {
+        width: 300px;
+        margin: 0;
+    }
+
+    #desejo .paragrafo p {
+        margin-left: -100px;
+    }
+
+    #desejo .paragrafo2 p {
+        text-align: left !important;
+    }
+
+    .leftside img {
+        width: 100px;
+    }
+
+    .rightside img {
+        width: 100px;
+    }
+
+    #cards .card1 {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    #cards .paragrafo {
+        border: none;
+    }
+    
+    #cards .paragrafo2 {
+        margin: 0;
+    }
+
+    #cards .card1 {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+
+    #cards .botao button {
+        width: 300px;
+    }
+
+    #bonus .botao {
+        margin: 0 auto;
+    }
+
+    #bonus .p1 p {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #bonus .bonus1 {
+        width: 250px;
+        height: 120px;
+    }
+
+    #bonus .bonus2 {
+        width: 250px;
+        height: 120px;
+    }
+
+    #bonus .bonus3 {
+        width: 250px;
+        height: 120px;
+    }
+
+    #bonus .bonus4 {
+        width: 250px;
+        height: 120px;
+    }
+    
+    #bonus .bonus5 {
+        width: 250px;
+        height: 120px;
+    }
+
+    #garantia .botao button {
+        width: 300px;
+    }
+
+    #depoimentos .card1 {
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #depoimentos .card2 {
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #depoimentos .card3 {
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #depoimentos .card4 {
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #depoimentos .card5 {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+
+    #preco .card1 {
+        width: 300px;
+    }
+
+    #preco .card2 {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    #preco .botao button {
+        width: 300px;
+    }
+
+    #final .imagem img {
+        width: 300px;
+    }
+
+    #footer img {
+        width: 200px;
+    }
+
+}
